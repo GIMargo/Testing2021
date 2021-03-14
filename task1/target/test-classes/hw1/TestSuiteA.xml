@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuiteA">
+	<test name="TestSuite2">
+		<classes>
+			<class name="hw1.AdditionTest" />
+			<class name="hw1.SubtractionTest" />
+		</classes>
+	</test>
+</suite>

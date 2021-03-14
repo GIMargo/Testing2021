@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 4, Errors: 0, Skipped: 1, Time elapsed: 1.056 s <<< FAILURE! - in TestSuite
+hw1.MultiplicationTest.testMultiDoubles[49.0, 2.5, 122.5](1)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [122.5] but found [122.0]
+	at hw1.MultiplicationTest.testMultiDoubles(MultiplicationTest.java:28)
+
+hw1.MultiplicationTest.testMultiDoubles[-5.6, 8.5, -47.599999999999994](3)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [-47.599999999999994] but found [-48.0]
+	at hw1.MultiplicationTest.testMultiDoubles(MultiplicationTest.java:28)
+
+hw1.MultiplicationTest.testMultiDoubles[-8.8, -9.8, 86.24000000000001](4)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [86.24000000000001] but found [86.0]
+	at hw1.MultiplicationTest.testMultiDoubles(MultiplicationTest.java:28)
+
+hw1.MultiplicationTest.testMultiDoubles[12345.123, 54321.987, 6.70611611119401E8](6)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [6.70611611119401E8] but found [6.70611611E8]
+	at hw1.MultiplicationTest.testMultiDoubles(MultiplicationTest.java:28)
+

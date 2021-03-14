@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="hw1.DivisionTest">
+        <methods>
+          <include name="testDivLong"/>
+        </methods>
+      </class> <!-- hw1.DivisionTest -->
+      <class name="hw1.MultiplicationTest">
+        <methods>
+          <include name="testMultiDoubles" invocation-numbers="0 2 3 5"/>
+        </methods>
+      </class> <!-- hw1.MultiplicationTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [hw1.AdditionTest]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="hw1.AdditionTest">
+        <methods>
+          <include name="testAddDoubles" invocation-numbers="6"/>
+        </methods>
+      </class> <!-- hw1.AdditionTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [hw1.AdditionTest] -->
