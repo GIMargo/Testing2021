@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="TestSuiteAll">
-	<test name="TestSuiteAll">
+	<test name="TestAll">
 		<classes>
 	     	<class name="hw2.ex1.EX1Test" />
 			<class name="hw2.ex2.EX2Test" />
